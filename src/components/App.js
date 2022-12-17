@@ -1,11 +1,12 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React, { Component, useState } from "react";
+import "../styles/App.css";
 
 const App = () => {
   return (
-    <div id="main"></div>
-  )
-}
-
+    <div id="main">
+      <h1>Hello World</h1>
+    </div>
+  );
+};
 
 export default App;
